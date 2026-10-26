@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="DESSERTS">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="260" y="204" width="280" height="236" rx="34" fill="#6B3E26"/>
+    <path d="M260 280 Q320 240 380 286 Q440 330 540 270 L540 406 Q540 440 506 440 L294 440 Q260 440 260 406 Z" fill="#4B2919"/>
+    <path d="M300 250 q40 30 80 0 q40 30 80 0 q30 22 60 6" fill="none" stroke="#A86B3C" stroke-width="18"/>
+    <circle cx="344" cy="344" r="19" fill="#E4B363" stroke-width="7"/>
+    <circle cx="420" cy="386" r="17" fill="#E4B363" stroke-width="7"/>
+    <circle cx="470" cy="332" r="15" fill="#E4B363" stroke-width="7"/>
+    <path d="M380 160 q40 -44 80 0 q-40 22 -80 0 Z" fill="#E4163A" stroke-width="8"/>
+    <path d="M420 156 q8 -34 42 -44" fill="none" stroke="#5F8D4E" stroke-width="10"/>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">DESSERTS</text>
+    
+  </g>
+</svg>

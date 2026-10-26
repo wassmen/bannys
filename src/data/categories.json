@@ -1,0 +1,92 @@
+[
+  {
+    "id": "burgers",
+    "nameFr": "Burgers",
+    "nameEn": "Burgers",
+    "nameAr": "برغر",
+    "image": "/images/products/category-burgers.svg",
+    "descriptionFr": "Nos burgers signature, généreux et fondants.",
+    "descriptionEn": "Our signature burgers, generous and melty.",
+    "descriptionAr": "برغرنا المميز، سخي وذائب."
+  },
+  {
+    "id": "tacos",
+    "nameFr": "Tacos",
+    "nameEn": "Tacos",
+    "nameAr": "تاكوس",
+    "image": "/images/products/category-tacos.svg",
+    "descriptionFr": "Grillés, garnis et nappés de sauce fromagère.",
+    "descriptionEn": "Grilled, loaded and covered in cheese sauce.",
+    "descriptionAr": "مشوي ومحشو ومغطى بصلصة الجبن."
+  },
+  {
+    "id": "sandwiches",
+    "nameFr": "Sandwichs",
+    "nameEn": "Sandwiches",
+    "nameAr": "ساندويتش",
+    "image": "/images/products/category-sandwiches.svg",
+    "descriptionFr": "Le classique du quartier, préparé minute.",
+    "descriptionEn": "The neighbourhood classic, made to order.",
+    "descriptionAr": "كلاسيك الحي، يُحضّر عند الطلب."
+  },
+  {
+    "id": "pizza",
+    "nameFr": "Pizzas",
+    "nameEn": "Pizzas",
+    "nameAr": "بيتزا",
+    "image": "/images/products/category-pizza.svg",
+    "descriptionFr": "Pâte fraîche et fromage qui file.",
+    "descriptionEn": "Fresh dough and stretchy cheese.",
+    "descriptionAr": "عجين طازج وجبن يذوب."
+  },
+  {
+    "id": "chicken",
+    "nameFr": "Poulet",
+    "nameEn": "Chicken",
+    "nameAr": "دجاج",
+    "image": "/images/products/category-chicken.svg",
+    "descriptionFr": "Croustillant dehors, tendre dedans.",
+    "descriptionEn": "Crispy outside, tender inside.",
+    "descriptionAr": "مقرمش من الخارج، طري من الداخل."
+  },
+  {
+    "id": "fries-sides",
+    "nameFr": "Frites & Sides",
+    "nameEn": "Fries & Sides",
+    "nameAr": "بطاطا وإضافات",
+    "image": "/images/products/category-fries-sides.svg",
+    "descriptionFr": "Frites dorées et sides à partager.",
+    "descriptionEn": "Golden fries and sides to share.",
+    "descriptionAr": "بطاطا ذهبية وإضافات للمشاركة."
+  },
+  {
+    "id": "drinks",
+    "nameFr": "Boissons",
+    "nameEn": "Drinks",
+    "nameAr": "مشروبات",
+    "image": "/images/products/category-drinks.svg",
+    "descriptionFr": "Fraîches, pétillantes ou gourmandes.",
+    "descriptionEn": "Fresh, fizzy or indulgent.",
+    "descriptionAr": "منعشة، فوارة أو لذيذة."
+  },
+  {
+    "id": "desserts",
+    "nameFr": "Desserts",
+    "nameEn": "Desserts",
+    "nameAr": "حلويات",
+    "image": "/images/products/category-desserts.svg",
+    "descriptionFr": "La touche sucrée de Benny.",
+    "descriptionEn": "Benny's sweet finish.",
+    "descriptionAr": "اللمسة الحلوة من بيني."
+  },
+  {
+    "id": "combos",
+    "nameFr": "Combos",
+    "nameEn": "Combos",
+    "nameAr": "عروض",
+    "image": "/images/products/category-combos.svg",
+    "descriptionFr": "Les menus complets au meilleur prix.",
+    "descriptionEn": "Complete meals at the best price.",
+    "descriptionAr": "وجبات كاملة بأفضل سعر."
+  }
+]

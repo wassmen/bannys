@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Coca-Cola 33cl">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 132 L470 132 L450 212 L350 212 Z" fill="#FFFBF2"/>
+    <path d="M460 112 L540 62" stroke="#E4163A" stroke-width="22"/>
+    <path d="M460 112 L540 62" stroke="#1E1412" stroke-width="8" opacity="0.6"/>
+    <path d="M316 220 L484 220 L452 454 Q400 474 348 454 Z" fill="#29B6E8"/>
+    <path d="M300 220 L500 220 L496 262 L304 262 Z" fill="#FFFBF2"/>
+    <path d="M336 286 L376 286" stroke="#FFFBF2" stroke-width="14"/>
+    <path d="M352 310 L448 310" stroke="#FFFBF2" stroke-width="14" opacity="0.7"/>
+    <circle cx="400" cy="370" r="34" fill="#FFFBF2" stroke-width="8"/>
+    <text x="400" y="383" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#E4163A" stroke="none">B</text>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">Coca-Cola 33cl</text>
+    <text x="0" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#1E1412" opacity="0.55">BENNY&apos;S • BOUIRA</text>
+  </g>
+</svg>

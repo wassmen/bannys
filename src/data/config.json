@@ -1,0 +1,39 @@
+{
+  "name": "Benny's",
+  "fullName": "Benny's Fast Food",
+  "tagline": "Le goût qui rend heureux, à Bouira.",
+  "shortDescription": "Burgers, tacos, pizzas et tenders préparés minute avec des produits frais, au cœur de Bouira.",
+  "whatsappNumber": "213555123456",
+  "phone": "+213 555 12 34 56",
+  "phoneDisplay": "0555 12 34 56",
+  "email": "hello@bennys-bouira.dz",
+  "deliveryFee": 200,
+  "freeDeliveryThreshold": 3500,
+  "minOrder": 800,
+  "currency": "DA",
+  "address": "Cité 1000 Logements, Bouira 10000, Algérie",
+  "addressShort": "Bouira, Algérie",
+  "openingHours": {
+    "weekdays": "11:00 – 23:00",
+    "weekend": "11:00 – 00:30",
+    "friday": "12:00 – 00:30",
+    "label": "Ouvert 7j/7",
+    "note": "Cuisine ouverte jusqu'à 30 minutes avant la fermeture."
+  },
+  "deliveryZones": [
+    "Centre-ville de Bouira",
+    "Cité 1000 Logements",
+    "Cité Kaci",
+    "Haï Bouniane",
+    "Route de Béjaïa",
+    "Ouled Cheikh"
+  ],
+  "mapsEmbed": "https://www.google.com/maps?q=Bouira,+Algeria&output=embed",
+  "mapsLink": "https://www.google.com/maps/search/?api=1&query=Bouira+Algeria",
+  "social": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/",
+    "tiktok": "https://www.tiktok.com/"
+  },
+  "paymentMethods": ["Paiement à la livraison (espèces)", "Paiement au retrait sur place"]
+}

@@ -1,0 +1,9 @@
+[
+  { "id": "extra-cheese", "name": "Extra cheddar", "price": 80, "emoji": "🧀" },
+  { "id": "extra-meat", "name": "Extra viande", "price": 250, "emoji": "🥩" },
+  { "id": "egg", "name": "Œuf", "price": 80, "emoji": "🍳" },
+  { "id": "mushrooms", "name": "Champignons", "price": 100, "emoji": "🍄" },
+  { "id": "bacon", "name": "Bacon de dinde", "price": 150, "emoji": "🥓" },
+  { "id": "extra-sauce", "name": "Sauce supplémentaire", "price": 50, "emoji": "🥫" },
+  { "id": "jalapenos", "name": "Jalapeños", "price": 50, "emoji": "🌶️" }
+]

@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Baloo+Bhaijaan+2:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #e4163a;
+  --color-brand-dark: #b80f2e;
+  --color-brand-soft: #ffd9df;
+  --color-ink: #1e1412;
+  --color-ink-soft: #4b3a35;
+  --color-cream: #fffbf2;
+  --color-cream-dark: #f7efdf;
+  --color-sky: #29b6e8;
+  --color-sky-dark: #1586b1;
+  --color-sky-soft: #d8f3fd;
+  --color-peach: #fbd9c4;
+  --color-peach-soft: #fdeee4;
+  --color-gold: #f6c445;
+  --color-gold-soft: #fff0bf;
+  --color-mint: #7cc576;
+
+  --font-display: 'Baloo 2', 'Baloo Bhaijaan 2', 'Trebuchet MS', sans-serif;
+  --font-sans: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+
+  --shadow-retro: 6px 6px 0 0 #1e1412;
+  --shadow-retro-sm: 3px 3px 0 0 #1e1412;
+  --shadow-retro-lg: 10px 10px 0 0 #1e1412;
+  --shadow-retro-brand: 6px 6px 0 0 #e4163a;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.75rem;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-bump: bump 0.35s ease-out;
+  --animate-marquee: marquee 26s linear infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) rotate(-1deg);
+    }
+    50% {
+      transform: translateY(-14px) rotate(1.5deg);
+    }
+  }
+
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(1.25) rotate(-6deg);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-cream);
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    line-height: 1.65;
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-brand);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background-color: var(--color-brand);
+    color: var(--color-cream);
+  }
+
+  [dir='rtl'] body {
+    font-family: 'Baloo Bhaijaan 2', 'Poppins', sans-serif;
+    letter-spacing: 0;
+  }
+
+  [dir='rtl'] h1,
+  [dir='rtl'] h2,
+  [dir='rtl'] h3,
+  [dir='rtl'] h4,
+  [dir='rtl'] h5,
+  [dir='rtl'] h6 {
+    letter-spacing: 0;
+  }
+}
+
+@utility dot-grid {
+  background-image: radial-gradient(circle, rgb(30 20 18 / 0.13) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+@utility stripe-band {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-sky) 0 12px,
+    var(--color-cream) 12px 24px
+  );
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility tap-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+@utility safe-bottom {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+@utility text-shadow-retro {
+  text-shadow: 3px 3px 0 var(--color-ink);
+}
+
+@layer components {
+  .retro-card {
+    border: 3px solid var(--color-ink);
+    border-radius: var(--radius-4xl);
+    background-color: #fff;
+    box-shadow: var(--shadow-retro);
+  }
+
+  .retro-btn {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 3px solid var(--color-ink);
+    border-radius: 9999px;
+    padding: 0.7rem 1.35rem;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1;
+    box-shadow: var(--shadow-retro-sm);
+    transition:
+      transform 200ms ease-out,
+      box-shadow 200ms ease-out,
+      background-color 200ms ease-out;
+  }
+
+  .retro-btn:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 0 var(--color-ink);
+  }
+
+  .retro-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 0 var(--color-ink);
+  }
+
+  .field {
+    width: 100%;
+    min-height: 48px;
+    border: 3px solid var(--color-ink);
+    border-radius: 1rem;
+    background-color: #fff;
+    padding: 0.7rem 1rem;
+    color: var(--color-ink);
+    transition:
+      box-shadow 200ms ease-out,
+      border-color 200ms ease-out;
+  }
+
+  .field::placeholder {
+    color: color-mix(in srgb, var(--color-ink) 45%, transparent);
+  }
+
+  .field:focus {
+    outline: none;
+    border-color: var(--color-brand);
+    box-shadow: 0 0 0 4px var(--color-brand-soft);
+  }
+
+  .field-error {
+    border-color: var(--color-brand);
+    background-color: #fff7f8;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

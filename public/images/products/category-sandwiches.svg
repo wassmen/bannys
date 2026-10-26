@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="SANDWICHES">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M228 240 Q228 158 400 158 Q572 158 572 240 Z" fill="#F0A63A"/>
+    <path d="M228 240 Q300 262 400 248 Q500 234 572 240 L548 280 Q400 302 252 280 Z" fill="#7CC576"/>
+    <rect x="250" y="278" width="300" height="32" rx="16" fill="#F6C445"/>
+    <rect x="258" y="306" width="284" height="38" rx="18" fill="#6B3E26"/>
+    <circle cx="320" cy="300" r="18" fill="#E4163A"/>
+    <circle cx="400" cy="302" r="18" fill="#E4163A"/>
+    <circle cx="480" cy="300" r="18" fill="#E4163A"/>
+    <path d="M250 342 L550 342 Q550 424 400 424 Q250 424 250 342 Z" fill="#E0993A"/>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">SANDWICHES</text>
+    
+  </g>
+</svg>

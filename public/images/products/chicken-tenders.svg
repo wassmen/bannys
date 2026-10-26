@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Tenders de Poulet">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M468 170 Q556 158 586 232 Q612 300 556 352 Q500 404 430 376 Q360 348 356 290 Q350 230 408 200 Q438 184 468 170 Z" fill="#C77B3A"/>
+    <path d="M382 386 Q330 430 286 470" fill="none" stroke="#FFFBF2" stroke-width="34"/>
+    <path d="M382 386 Q330 430 286 470" fill="none" stroke="#1E1412" stroke-width="10"/>
+    <circle cx="286" cy="470" r="24" fill="#FFFBF2"/>
+    <circle cx="500" cy="264" r="17" fill="#E0993A" stroke-width="7"/>
+    <circle cx="456" cy="330" r="14" fill="#E0993A" stroke-width="7"/>
+    <circle cx="540" cy="316" r="12" fill="#E0993A" stroke-width="7"/>
+    <path d="M210 190 l12 28 l30 4 l-22 20 l7 30 l-27 -16 l-27 16 l7 -30 l-22 -20 l30 -4 Z" fill="#E4163A" stroke-width="7"/>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">Tenders de Poulet</text>
+    <text x="0" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#1E1412" opacity="0.55">BENNY&apos;S • BOUIRA</text>
+  </g>
+</svg>

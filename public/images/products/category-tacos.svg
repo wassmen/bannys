@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="TACOS">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M208 356 L258 188 Q400 148 542 188 L592 356 Q530 310 470 320 Q430 328 400 340 Q370 328 330 320 Q270 310 208 356 Z" fill="#F2C14E"/>
+    <path d="M246 282 Q280 318 314 286 Q348 254 382 286 Q416 318 450 286 Q484 254 518 286 Q540 302 558 288" fill="#7CC576"/>
+    <circle cx="315" cy="312" r="25" fill="#E4163A"/>
+    <circle cx="400" cy="326" r="27" fill="#E4163A"/>
+    <circle cx="485" cy="312" r="25" fill="#E4163A"/>
+    <path d="M290 350 Q330 326 370 350 Q330 366 290 350 Z" fill="#6B3E26"/>
+    <path d="M430 350 Q470 326 510 350 Q470 366 430 350 Z" fill="#6B3E26"/>
+    <path d="M330 370 Q400 396 470 370" fill="none" stroke="#F6C445" stroke-width="16"/>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">TACOS</text>
+    
+  </g>
+</svg>

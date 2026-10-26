@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Menu Tacos">
+  
+  <defs>
+    <pattern id="freckles" width="46" height="46" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#1E1412" opacity="0.08"/>
+    </pattern>
+    <pattern id="stripes" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="28" height="56" fill="#FFFFFF" opacity="0.35"/>
+      <rect x="28" width="28" height="56" fill="#29B6E8" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="#FFFBF2"/>
+  <rect width="800" height="600" fill="url(#freckles)"/>
+  <circle cx="128" cy="120" r="88" fill="#FBD9C4" opacity="0.75"/>
+  <circle cx="694" cy="178" r="64" fill="#29B6E8" opacity="0.18"/>
+  <path d="M0 486 Q200 440 400 486 T800 486 L800 600 L0 600 Z" fill="url(#stripes)" opacity="0.6"/>
+  
+  <g stroke="#1E1412" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(58 10) scale(0.7)">
+      
+  <g stroke="#1E1412" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M252 238 Q252 128 400 128 Q548 128 548 238 L548 248 Q400 282 252 248 Z" fill="#F0A63A"/>
+    <ellipse cx="330" cy="184" rx="11" ry="6" fill="#FFFBF2" stroke="none"/>
+    <ellipse cx="400" cy="162" rx="11" ry="6" fill="#FFFBF2" stroke="none"/>
+    <ellipse cx="468" cy="187" rx="11" ry="6" fill="#FFFBF2" stroke="none"/>
+    <path d="M240 264 Q270 296 300 268 Q330 240 360 268 Q390 296 420 268 Q450 240 480 268 Q510 296 540 268 Q555 256 562 270" fill="#7CC576"/>
+    <path d="M252 288 L548 288 L520 326 L280 326 Z" fill="#F6C445"/>
+    <rect x="252" y="326" width="296" height="42" rx="20" fill="#6B3E26"/>
+    <path d="M252 382 L548 382 Q548 440 400 440 Q252 440 252 382 Z" fill="#E0993A"/>
+  </g>
+    </g>
+    <g transform="translate(388 50) scale(0.62)">
+      
+  <g stroke="#1E1412" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="300" y="150" width="40" height="170" rx="12" transform="rotate(-12 320 235)" fill="#F6C445"/>
+    <rect x="360" y="126" width="40" height="190" rx="12" fill="#F6C445"/>
+    <rect x="425" y="142" width="40" height="175" rx="12" transform="rotate(9 445 230)" fill="#F6C445"/>
+    <rect x="480" y="166" width="40" height="155" rx="12" transform="rotate(16 500 243)" fill="#F6C445"/>
+    <path d="M270 240 L530 240 L492 452 L308 452 Z" fill="#E4163A"/>
+    <path d="M294 300 L506 300" stroke="#FFFBF2" stroke-width="18"/>
+    <path d="M400 320 l-34 48 l22 0 l-14 32 l52 -56 l-24 0 l18 -24 Z" fill="#FFFBF2" stroke-width="6"/>
+  </g>
+    </g>
+    <g transform="translate(120 10) scale(0.55)">
+      
+  <g stroke="#1E1412" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 132 L470 132 L450 212 L350 212 Z" fill="#FFFBF2"/>
+    <path d="M460 112 L540 62" stroke="#E4163A" stroke-width="22"/>
+    <path d="M460 112 L540 62" stroke="#1E1412" stroke-width="8" opacity="0.6"/>
+    <path d="M316 220 L484 220 L452 454 Q400 474 348 454 Z" fill="#29B6E8"/>
+    <path d="M300 220 L500 220 L496 262 L304 262 Z" fill="#FFFBF2"/>
+    <path d="M336 286 L376 286" stroke="#FFFBF2" stroke-width="14"/>
+    <path d="M352 310 L448 310" stroke="#FFFBF2" stroke-width="14" opacity="0.7"/>
+    <circle cx="400" cy="370" r="34" fill="#FFFBF2" stroke-width="8"/>
+    <text x="400" y="383" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#E4163A" stroke="none">B</text>
+  </g>
+    </g>
+  </g>
+  
+  <g transform="translate(400 522)">
+    <rect x="-310" y="-46" width="620" height="82" rx="26" fill="#1E1412"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#FFFBF2" letter-spacing="0.5">Menu Tacos</text>
+    <text x="0" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#1E1412" opacity="0.55">BENNY&apos;S • BOUIRA</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+[
+  { "id": "ketchup", "name": "Ketchup", "price": 0, "color": "#E4163A", "emoji": "🍅" },
+  { "id": "mayo", "name": "Mayonnaise", "price": 0, "color": "#FFF3C0", "emoji": "🥚" },
+  { "id": "algerienne", "name": "Algérienne", "price": 0, "color": "#F28C28", "emoji": "🌶️" },
+  { "id": "samourai", "name": "Samouraï", "price": 0, "color": "#D9482B", "emoji": "🥢" },
+  { "id": "biggy", "name": "Biggy", "price": 50, "color": "#E8A317", "emoji": "⭐" },
+  { "id": "barbecue", "name": "Barbecue", "price": 0, "color": "#7B3F1D", "emoji": "🔥" },
+  { "id": "harissa", "name": "Harissa", "price": 0, "color": "#C8102E", "emoji": "🌶️" },
+  { "id": "blanche", "name": "Blanche", "price": 50, "color": "#FFFBF2", "emoji": "🥛" },
+  { "id": "fromagere", "name": "Fromagère", "price": 50, "color": "#F6C445", "emoji": "🧀" }
+]
