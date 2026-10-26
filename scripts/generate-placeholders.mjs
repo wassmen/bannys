@@ -195,9 +195,14 @@ for (const category of categories) {
   )
 }
 
-for (const product of products) {
+const placeholderProducts = products.filter((product) => product.image.endsWith('.svg'))
+
+for (const product of placeholderProducts) {
   const relative = product.image.replace(/^\//, '')
   write(`public/${relative}`, buildSvg({ title: product.name, category: product.category, subtitle: 'BENNY\'S • BOUIRA' }))
 }
 
-console.log(`Generated ${products.length} product placeholders and ${categories.length} category placeholders.`)
+console.log(
+  `Generated ${placeholderProducts.length} product placeholders and ${categories.length} category placeholders. ` +
+    `Skipped ${products.length - placeholderProducts.length} products using real photos.`,
+)
